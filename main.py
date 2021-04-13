@@ -3,7 +3,7 @@
 
 import math
 
-def quadratic():
+def main():
     print("ax^2 + bx + c")
     a = int(input("a: "))
     b = int(input("b: "))
@@ -14,9 +14,6 @@ def quadratic():
     total = (minusb + sr) / (2 * a)
     total2 = (minusb - sr) / (2 * a)
     print("x =", total, "or x =", total2)
-
-def main():
-    quadratic()
 
 if __name__ == '__main__':
     while True:
